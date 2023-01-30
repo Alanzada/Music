@@ -1,0 +1,17 @@
+&node:internal/modules/cjs/loader:1289
+    throw err;
+    ^
+
+PSyntaxError: /home/node/config.json: Unexpected token } in JSON at position 152
+    at parse (<anony    mous>)
+K    at Module._extensions..json (node:internal/modules/cjs/loader:1286:39)
+>    at Module.load (node:internal/modules/cjs/loader:1081:32)
+>    at Module._load (node:internal/modules/cjs/loader:922:12)
+A    at Module.require (node:internal/modules/cjs/loader:1105:19)
+:    at require (node:internal/modules/cjs/helpers:103:18)
+5    at Object.<anonymous> (/home/node/index.js:1:34)
+B    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+I    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+>    at Module.load (node:internal/modules/cjs/loader:1081:32)
+
+Node.js v18.13.0
